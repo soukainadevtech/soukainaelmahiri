@@ -38,12 +38,7 @@ nav {
     z-index: 2;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-/*nav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-}*/
+
 nav ul{
     display: flex;
     justify-content: center;
@@ -178,17 +173,7 @@ nav ul li a.active {
     width: 65%;
     mix-blend-mode: lighten;
 }
-/*@media (max-width: 850px) {
-    .Home-info h2 {
-      font-size: 35px;
-    }
-  }
-  
-  @media (max-width: 740px) {
-    .Home-info {
-    flex-direction: column;
-  }
-}*/
+
 .bars-animation {
     position: absolute;
     width: 100%;
@@ -421,7 +406,7 @@ nav ul li a.active {
         width: calc(50% - 20px);
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     nav ul li a {
         font-size: 12px;
         padding: 8px 10px;
@@ -537,26 +522,6 @@ footer {
     background-color: #835879;
 }
   
-/*@media (max-width: 768px) {
-    .Home-info h1{
-        font-size: 30px;
-    }
-    .Home-info h2 {
-        font-size: 19px;
-    }
-    .Home-info p {
-        font-size: 12px;
-    }
-    .portfolio-item {
-      width: calc(50% - 20px);
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .portfolio-item {
-      width: 100%;
-    }
-  }*/
 .portfolio-section {
   background-color: #1f242d;
   color: white;
@@ -613,9 +578,4 @@ footer {
 
 .portfolio-info a:hover {
   background-color: #835879;
-}
-.contact-section .group #msg {
-    color: aqua;
-    margin-top: 470px;
-    display: block;
 }
