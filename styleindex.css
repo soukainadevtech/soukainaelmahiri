@@ -430,6 +430,9 @@ nav ul li a.active {
         height: auto;
         padding: 20px 5%;
     }
+  #Home, #About{
+        margin:0;
+    }
     .service-item {
         width: 100%; /* 1 service par ligne sur les écrans mobiles */
     }
