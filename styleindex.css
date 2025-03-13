@@ -415,8 +415,12 @@ nav ul li a.active {
         height: auto;
         padding: 20px 5%;
     }
-  #Home, #About{
-        margin:0;
+    .Home-img .img-box {
+        height: 40vw;
+        width: 40vw;
+    }
+    .Home-img .img-box .img-item img {
+        width: 90%;
     }
     .service-item {
         width: 100%; /* 1 service par ligne sur les écrans mobiles */
