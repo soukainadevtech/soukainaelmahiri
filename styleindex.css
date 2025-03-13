@@ -413,7 +413,7 @@ nav ul li a.active {
     }
     .home{
         height: auto;
-        padding: 20px 5%;
+        padding: 30px 5% 0;
     }
     .Home-img .img-box {
         height: 40vw;
