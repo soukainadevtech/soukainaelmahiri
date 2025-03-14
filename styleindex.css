@@ -10,7 +10,7 @@
 section {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 #Services, #Contact {
     background-color: #1f242d;
